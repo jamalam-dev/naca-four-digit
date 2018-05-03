@@ -40,9 +40,9 @@ int main(int argc, char** argv) {
     /* Parse command line arguments */
     if(argc != 4) {
 
-        std::cout << "ERROR: four-digit requires exactly three arguments of the form 'four-digit 0.### 0.### ##.###" << std::endl;
+        std::cout << "ERROR: four-digit requires exactly three arguments of the form 'four-digit 0.### 0.### 0.###" << std::endl;
         std::cout << "       The first argument is camber as a fraction of the chord" << std::endl;
-        std::cout << "       The second argument is max camber as a fraction of the chord" << std::endl;
+        std::cout << "       The second argument is location of max camber as a fraction of the chord" << std::endl;
         std::cout << "       The third argument is the thickness of the airfoil, as a fraction of the chord" << std::endl;
         return -1;
 
